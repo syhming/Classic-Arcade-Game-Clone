@@ -5,8 +5,11 @@ Students should use this [rubric](https://review.udacity.com/#!/projects/2696458
 
 For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
 
+## Installation Instructions
+The game can be run after downloading and extracting the zip file.
 
-Outlining what needs to be done:
-  * enemy and player movement
-  * enemy, player, background models and images
-  * enemy/player interaction
+## How to Play
+Use the 'up', 'down', 'left', and 'right' keys to move the character across the game field while avoiding the enemy characters.  
+
+## Win Conditions
+The player character must make it across the road onto the water.  If the character comes into contact with the enemy, the game is reset and must be start over on the grassy side of the road.
