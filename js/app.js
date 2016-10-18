@@ -1,7 +1,6 @@
 //movement: game size 505px x 498px
 var tileHeight = 83;
 var tileWidth = 101;
-//var playerScore = 0;
 // Enemies our player must avoid
 var Enemy = function() {
     // Variables applied to each of our instances go here,
@@ -79,11 +78,14 @@ player.prototype.handleInput = function(keyPress){
       else if(this.y < (tileHeight * 2)){
       this.x = tileWidth * 2;
       this.y = tileHeight * 5;
-      //trying to add a score counter to the bottom left of the game map
+      //trying to add a score counter and clear it with each update
       this.score += 1;
-      ctx.font = '20px Arial';
-      ctx.clearRect(5, 606, 101, 30);
-      ctx.fillText('Score: ' + this.score, 5, 606);
+      //try 'appending' data to the end of the canvas in the same location
+      //or try adding a second canvas just for the score
+      /*ctx2.clearRect(1, 606, 505, 20);
+      ctx2.font = '20px Arial';
+      ctx2.fillText('Score: ' + this.score, 5, 606);
+      */
     }
     break;
     case "down": if(this.y < tileHeight * 5){
