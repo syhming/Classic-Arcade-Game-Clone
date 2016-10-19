@@ -12,4 +12,4 @@ The game can be run after downloading and extracting the zip file.
 Use the 'up', 'down', 'left', and 'right' keys to move the character across the game field while avoiding the enemy characters.  
 
 ## Win Conditions
-The player character must make it across the road onto the water.  If the character comes into contact with the enemy, the game is reset and must be start over on the grassy side of the road.
+The player character must make it across the road onto the water to score points.  If the character comes into contact with the enemy, the game is reset and must be start over on the grassy side of the road.
