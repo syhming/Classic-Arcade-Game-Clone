@@ -82,10 +82,9 @@ player.prototype.handleInput = function(keyPress){
       this.score += 1;
       //try 'appending' data to the end of the canvas in the same location
       //or try adding a second canvas just for the score
-      /*ctx2.clearRect(1, 606, 505, 20);
-      ctx2.font = '20px Arial';
-      ctx2.fillText('Score: ' + this.score, 5, 606);
-      */
+      ctx.clearRect(1, 590, 505, 20);
+      ctx.font = '20px Arial';
+      ctx.fillText('Score: ' + this.score, 5, 606);
     }
     break;
     case "down": if(this.y < tileHeight * 5){
